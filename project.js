@@ -10,7 +10,7 @@ function solve() {
   return y;
 }
 
-function deleteLastDigit() {
+function deleteD() {
   var displayValue = document.getElementById("result").value;
   document.getElementById("result").value = displayValue.slice(0, -1);
 }
